@@ -1,0 +1,7 @@
+PG_HOST=localhost
+PG_PORT=5432
+PG_DB=sinesp_nordeste_sad
+PG_USER=postgres
+PG_PASS=123
+TRANSF_DIR=C:\Users\MyUser\Documents\pentaho-etl-sinesp-nordeste\etl\transformations
+DATA_DIR=C:\Users\MyUser\Documents\pentaho-etl-sinesp-nordeste\data
