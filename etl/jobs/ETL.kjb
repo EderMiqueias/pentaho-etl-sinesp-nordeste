@@ -387,19 +387,19 @@
       <filename/>
       <fields>
         <field>
-          <name>${Internal.Job.Filename.Directory}\BancoVDE 2018.csv</name>
+          <name>${DATA_DIR}\BancoVDE 2018.csv</name>
         </field>
         <field>
-          <name>${Internal.Job.Filename.Directory}\BancoVDE 2019.csv</name>
+          <name>${DATA_DIR}\BancoVDE 2019.csv</name>
         </field>
         <field>
-          <name>${Internal.Job.Filename.Directory}\BancoVDE 2020.csv</name>
+          <name>${DATA_DIR}\BancoVDE 2020.csv</name>
         </field>
         <field>
-          <name>${Internal.Job.Filename.Directory}\BancoVDE 2021.csv</name>
+          <name>${DATA_DIR}\BancoVDE 2021.csv</name>
         </field>
         <field>
-          <name>${Internal.Job.Filename.Directory}\populacao_nordeste.csv</name>
+          <name>${DATA_DIR}\populacao_nordeste.csv</name>
         </field>
       </fields>
       <parallel>N</parallel>
@@ -791,7 +791,7 @@
       <to>Check DB connections</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
-      <enabled>Y</enabled>
+      <enabled>N</enabled>
       <evaluation>Y</evaluation>
       <unconditional>N</unconditional>
     </hop>
@@ -928,7 +928,7 @@
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
       <evaluation>Y</evaluation>
-      <unconditional>Y</unconditional>
+      <unconditional>N</unconditional>
     </hop>
   </hops>
   <notepads>
