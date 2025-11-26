@@ -437,7 +437,7 @@
   </notepads>
   <connection>
     <name>POSTGRES LOCAL</name>
-    <server>localhost</server>
+    <server>${POSTGRES_SERVER}</server>
     <type>POSTGRESQL</type>
     <access>Native</access>
     <database>sinesp_nordeste_sad</database>

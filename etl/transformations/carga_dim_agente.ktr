@@ -544,7 +544,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${Internal.Transformation.Filename.Directory}\BancoVDE 2018.csv</filename>
+    <filename>${DATA_DIR}\BancoVDE 2018.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -750,7 +750,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${Internal.Transformation.Filename.Directory}\BancoVDE 2019.csv</filename>
+    <filename>${DATA_DIR}\BancoVDE 2019.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -956,7 +956,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${Internal.Transformation.Filename.Directory}\BancoVDE 2020.csv</filename>
+    <filename>${DATA_DIR}\BancoVDE 2020.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -1162,7 +1162,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${Internal.Transformation.Filename.Directory}\BancoVDE 2021.csv</filename>
+    <filename>${DATA_DIR}\BancoVDE 2021.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>

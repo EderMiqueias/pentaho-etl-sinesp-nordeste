@@ -1568,7 +1568,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${Internal.Transformation.Filename.Directory}\BancoVDE 2018.csv</filename>
+    <filename>${DATA_DIR}\BancoVDE 2018.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -1759,7 +1759,7 @@
     </remotesteps>
     <GUI>
       <xloc>80</xloc>
-      <yloc>112</yloc>
+      <yloc>96</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1774,7 +1774,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${Internal.Transformation.Filename.Directory}\BancoVDE 2019.csv</filename>
+    <filename>${DATA_DIR}\BancoVDE 2019.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -1965,7 +1965,7 @@
     </remotesteps>
     <GUI>
       <xloc>80</xloc>
-      <yloc>176</yloc>
+      <yloc>160</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1980,7 +1980,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${Internal.Transformation.Filename.Directory}\BancoVDE 2020.csv</filename>
+    <filename>${DATA_DIR}\BancoVDE 2020.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -2171,7 +2171,7 @@
     </remotesteps>
     <GUI>
       <xloc>80</xloc>
-      <yloc>240</yloc>
+      <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -2186,7 +2186,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${Internal.Transformation.Filename.Directory}\BancoVDE 2021.csv</filename>
+    <filename>${DATA_DIR}\BancoVDE 2021.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -2377,7 +2377,7 @@
     </remotesteps>
     <GUI>
       <xloc>80</xloc>
-      <yloc>304</yloc>
+      <yloc>288</yloc>
       <draw>Y</draw>
     </GUI>
   </step>

@@ -588,7 +588,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${Internal.Transformation.Filename.Directory}\populacao_nordeste.csv</filename>
+    <filename>${DATA_DIR}\populacao_nordeste.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
