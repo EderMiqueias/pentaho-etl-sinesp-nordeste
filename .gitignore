@@ -14,5 +14,8 @@ Thumbs.db
 
 *.swp
 *.swo
+*.xls
 
 data/*.csv
+
+config/.env
