@@ -842,7 +842,7 @@
       </field>
       <field>
         <name>arma</name>
-        <type>String</type>
+        <type>Boolean</type>
         <format/>
         <currency>BRL</currency>
         <decimal>.</decimal>
@@ -961,7 +961,7 @@
     </remotesteps>
     <GUI>
       <xloc>128</xloc>
-      <yloc>48</yloc>
+      <yloc>64</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1167,7 +1167,7 @@
     </remotesteps>
     <GUI>
       <xloc>128</xloc>
-      <yloc>112</yloc>
+      <yloc>128</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1243,7 +1243,7 @@
       </field>
       <field>
         <name>agente</name>
-        <type>Boolean</type>
+        <type>String</type>
         <format/>
         <currency>BRL</currency>
         <decimal>.</decimal>
@@ -1373,7 +1373,7 @@
     </remotesteps>
     <GUI>
       <xloc>128</xloc>
-      <yloc>176</yloc>
+      <yloc>192</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1449,7 +1449,7 @@
       </field>
       <field>
         <name>agente</name>
-        <type>Boolean</type>
+        <type>String</type>
         <format/>
         <currency>BRL</currency>
         <decimal>.</decimal>
@@ -1579,7 +1579,7 @@
     </remotesteps>
     <GUI>
       <xloc>128</xloc>
-      <yloc>240</yloc>
+      <yloc>256</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
