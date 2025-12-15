@@ -35,20 +35,24 @@ CREATE TABLE "dim_evento"(
 -- 2. Criação das Tabelas de Fato (Incluindo Chaves Estrangeiras e UNIQUE/PRIMARY KEY)
 
 CREATE TABLE "fato_ocorrencia"(
-    "id_local" INTEGER NULL,
-    "id_agente" INTEGER NULL,
-    "id_tempo" INTEGER NULL,
-    "id_evento" INTEGER NULL,
-    "feminino" INTEGER NULL,
-    "masculino" INTEGER NULL,
-    "nao_informado" INTEGER NULL,
-    "total_vitima" INTEGER NULL,
-    -- Restrições
-    PRIMARY KEY(id_local, id_evento, id_tempo),
-    FOREIGN KEY("id_local") REFERENCES "dim_local"("id"),
-    FOREIGN KEY("id_agente") REFERENCES "dim_agente"("id"),
-    FOREIGN KEY("id_tempo") REFERENCES "dim_tempo"("id"),
-    FOREIGN KEY("id_evento") REFERENCES "dim_evento"("id")
+    id_local integer,
+    id_agente integer,
+    id_tempo integer,
+    id_evento integer,
+    feminino integer,
+    masculino integer,
+    nao_informado integer,
+    total_vitima integer,
+    CONSTRAINT fato_ocorrencia_id_local_id_evento_id_agente_id_tempo_key
+        UNIQUE (id_local, id_evento, id_agente, id_tempo),
+    CONSTRAINT fato_ocorrencia_id_agente_fkey FOREIGN KEY (id_agente)
+        REFERENCES public.dim_agente (id),
+    CONSTRAINT fato_ocorrencia_id_evento_fkey FOREIGN KEY (id_evento)
+        REFERENCES public.dim_evento,
+    CONSTRAINT fato_ocorrencia_id_local_fkey FOREIGN KEY (id_local)
+        REFERENCES public.dim_local,
+    CONSTRAINT fato_ocorrencia_id_tempo_fkey FOREIGN KEY (id_tempo)
+        REFERENCES public.dim_tempo
 );
 
 CREATE TABLE "fato_populacao"(
